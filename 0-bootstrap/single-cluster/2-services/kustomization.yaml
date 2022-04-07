@@ -43,15 +43,15 @@ resources:
 #- argocd/instances/ibm-cp4sthreatmanagements-instance.yaml
 
 ## IBM Foundational Services / Common Services
-#- argocd/operators/ibm-foundations.yaml
-#- argocd/instances/ibm-foundational-services-instance.yaml
-#- argocd/operators/ibm-automation-foundation-core-operator.yaml
-#- argocd/operators/ibm-automation-foundation-operator.yaml
-#- argocd/operators/ibm-license-service-operator.yaml
-#- argocd/instances/ibm-license-service-instance.yaml
+- argocd/operators/ibm-foundations.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/operators/ibm-automation-foundation-core-operator.yaml
+- argocd/operators/ibm-automation-foundation-operator.yaml
+- argocd/operators/ibm-license-service-operator.yaml
+- argocd/instances/ibm-license-service-instance.yaml
 
 ## IBM Catalogs
-#- argocd/operators/ibm-catalogs.yaml
+- argocd/operators/ibm-catalogs.yaml
 
 # B2BI
 #- argocd/instances/ibm-sfg-db2.yaml
@@ -62,11 +62,11 @@ resources:
 # Required for IBM MQ
 #- argocd/instances/openldap.yaml
 # Required for IBM ACE, IBM MQ
-#- argocd/operators/cert-manager.yaml
-#- argocd/instances/cert-manager-instance.yaml
+- argocd/operators/cert-manager.yaml
+- argocd/instances/cert-manager-instance.yaml
 
 # Sealed Secrets
-#- argocd/instances/sealed-secrets.yaml
+- argocd/instances/sealed-secrets.yaml
 
 # CICD
 #- argocd/operators/grafana-operator.yaml
